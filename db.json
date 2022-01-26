@@ -1,5 +1,156 @@
 {
-  "users": [],
-  "plants": [],
+  "users": [
+    {
+      "email": "luiza@gmail.com",
+      "password": "$2a$10$4OgwaSGFs30hKh0NgQ3wXeGCxULzzvVqnf9byu00RBdN1YbePqaVm",
+      "name": "Luiza",
+      "interest": "Hobby",
+      "id": 1
+    },
+    {
+      "email": "caique@email.com",
+      "password": "$2a$10$DAmFw3wrqRfUDageQTOghegMEZYRVJKDDOuWvGhXEwEN17SilTSQq",
+      "name": "Caique",
+      "interest": "Hobby",
+      "id": 2
+    },
+    {
+      "email": "breno@email.com",
+      "password": "$2a$10$UEGctb.oT4UpOLZQP3VcNunYhzuIk7gJx/JyMJ6WfyVl7dR4DxD86",
+      "name": "Breno",
+      "interest": "Hobby",
+      "id": 3
+    },
+    {
+      "email": "bruno@gmail.com",
+      "password": "$2a$10$iGCywnmwCEK0wXda5fzTw.KTmoaE7qUvBeMFkBoUntX8BY54oVxhC",
+      "name": "Bruno",
+      "interest": "Hobby",
+      "id": 4
+    },
+    {
+      "email": "johnny@gmail.com",
+      "password": "$2a$10$AO9FEweJWCECo6WTJhQz/uORNW.33tB8a2HVACCB1XJ.9RL.8GCXK",
+      "name": "Johnny",
+      "interest": "Hobby",
+      "id": 5
+    }
+  ],
+  "plants": [
+    {
+      "name": "Samambaia",
+      "cientific_name": "Phlebodium decumanum",
+      "water": 1,
+      "lighting": {
+        "min": 1,
+        "max": 2
+      },
+      "temperature": {
+        "min": 15,
+        "max": 30
+      },
+      "height": {
+        "min": 80,
+        "max": 120
+      },
+      "info": "Formam moitas volumosas por isso são ideais para colocar em vasos suspensos ou no alto de uma parede, para criar um jardim vertical. A samambaia se adapta perfeitamente a ambientes com o tipo de iluminação meia-sombra e não deve pegar muito vento.",
+      "image": "https://ibb.co/1JJXwsg"
+    },
+    {
+      "name": "Espada de São Jorge",
+      "cientific_name": "Dracaena trifasciata",
+      "water": 7,
+      "lighting": {
+        "min": 0,
+        "max": 1
+      },
+      "temperature": {
+        "min": 15,
+        "max": 30
+      },
+      "height": {
+        "min": 60,
+        "max": 100
+      },
+      "info": "Com folhas longas e achatadas, a Espada de São Jorge é uma ótima escolha para quem não tem muito tempo para dedicar às plantas, pois ela não exige muitos cuidados. Além disso, se adapta bem a ambientes com ar-condicionado.",
+      "image": "https://ibb.co/xSYMzw6"
+    },
+    {
+      "name": "Peperômia-melancia",
+      "cientific_name": "Peperomia argyreia",
+      "water": 5,
+      "lighting": {
+        "min": 0,
+        "max": 1
+      },
+      "temperature": {
+        "min": 15,
+        "max": 30
+      },
+      "height": {
+        "min": 40,
+        "max": 60
+      },
+      "info": "Suas folhas lembram a casca da melancia, a sua aparência que deu origem ao seu nome. Cresce rápido e é uma planta de fácil cultivo. Seu ambiente ideal é um ambiente claro, mas sem luz do sol direta.",
+      "image": "https://ibb.co/9VyZLxW"
+    },
+    {
+      "name": "Babosa Aloe vera",
+      "cientific_name": "Aloe vera",
+      "water": 8,
+      "lighting": {
+        "min": 8,
+        "max": 16
+      },
+      "temperature": {
+        "min": 10,
+        "max": 35
+      },
+      "height": {
+        "min": "30",
+        "max": "150"
+      },
+      "info": "Amplamente empregada como hidratante capilar/facial natural. Estudos apontam que a babosa também ajuda a tratar lesões e queimaduras superficiais",
+      "image": "https://cdn.pixabay.com/photo/2020/08/28/17/15/aloe-5525117_960_720.jpg"
+    },
+    {
+      "name": "Citronela",
+      "cientific_name": "Cymbopogon winterianus",
+      "water": "1",
+      "lighting": {
+        "min": "6",
+        "max": "16"
+      },
+      "height": {
+        "min": "30",
+        "max": "200"
+      },
+      "temperature": {
+        "min": "28",
+        "max": "35"
+      },
+      "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, tanto a planta em si, que uma vez inserida em um ambiente exala um odor que repele insetos, quando em repelentes, shampoos e outros produtos derivados. ",
+      "image": "https://ibb.co/56jRPs7"
+    },
+    {
+      "name": "Ora-pro-nóbis",
+      "cientific_name": "Pereskia aculeata",
+      "temperature": {
+        "min": "22",
+        "max": "35"
+      },
+      "water": "3",
+      "lighting": {
+        "min": "3",
+        "max": "6"
+      },
+      "height": {
+        "min": "100",
+        "max": "350"
+      },
+      "info": "Auxilia na limpeza do organismo, serve como anti-inflamatório natural, tem poder cicatrizante",
+      "image": "https://ibb.co/0BTDcch"
+    }
+  ],
   "userPlants": []
 }
