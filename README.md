@@ -230,11 +230,10 @@ GET /userPlants - Recebe a lista de todas as plantas vinculadas ao usuário, 660
 
 <h2 align ='center'> Vinculando plantas ao usuário </h2>
 <br/>
-POST /userPlants -  Permite ao usuário adicionar plantas em seu perfil.
+POST /userPlants/?userId  -  Permite ao usuário adicionar plantas em seu perfil.
 
-// REVER ESSA PARTE!!!!!!!!!!!!!!!!!!!!!!!!!!!! QUAIS CARACTERES SÃO OBRIGATÓRIOS OU NÃO
 
-`POST /userPlants  -  FORMATO DA REQUISIÇÃO `
+`POST /userPlants/?userId  -  FORMATO DA REQUISIÇÃO `
 ```json
 [
   {
@@ -262,10 +261,11 @@ POST /userPlants -  Permite ao usuário adicionar plantas em seu perfil.
 
 Caso dê tudo certo, a resposta será assim:
 
-`POST /login  -  FORMATO DA RESPOSTA - STATUS 200`
+`PPOST /userPlants/?userId  -  FORMATO DA RESPOSTA - STATUS 200`
 ```json
 [
   {
+    "userID": 6,
     "name": "Samambaia",
     "cientific_name": "Phlebodium decumanum",
     "water": 1,
@@ -335,12 +335,3 @@ DELETE /userPlants/:plants_id -  Permite ao usuário atualizar as informações 
 Não é necessário um corpo da requisição.
 ```
 --------------------------------------------------
-
-Aplicação desenvolvida como atividade capstone do curso de front-end da Kenzie Academy pela equipe:
-<ul>
-    <li>Luiza Schmidt   - Product Owner</li>
-    <li>Caique Ferreira - Scrum Master</li>
-    <li>Johnny Gregorio - Quality Assurance</li>
-    <li>Bruno Tetzner   - Quality Assurance</li>
-    <li>Breno Carlos    - Tech Leader</li>
-</ul>
