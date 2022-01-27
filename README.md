@@ -11,8 +11,8 @@ Este é o backend da aplicação Help my plants. O objetivo dessa aplicação é
 
 A API tem um total de 7 endpoints, sendo em volta principalmente do usuário - podendo cadastrar seu perfil, acessar a database das plantas, adicionar as plantas em seu perfil, atualizar as informações das plantas já registradas em seu perfil e deletar as plantas que estão em seu perfil. 
 <br/>
-
-O url base da API é https://help-may-plants-backend.herokuapp.com/
+                    
+O url base da API é https:/help-my-plants-backend.herokuapp.com/
 
 ---
 
