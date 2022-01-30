@@ -92,7 +92,7 @@
         "max": 60
       },
       "info": "Suas folhas lembram a casca da melancia, a sua aparência que deu origem ao seu nome. Cresce rápido e é uma planta de fácil cultivo. Seu ambiente ideal é um ambiente claro, mas sem luz do sol direta.",
-      "image": "https://i.ibb.co/P91Dn2g/peromia-melancia.jpg"
+      "image": "https://i.ibb.co/tDP0D5S/watermelon-peperomia-amazon.jpg"
     },
     {
       "name": "Lírio-da-paz",
@@ -107,8 +107,8 @@
         "max": 30
       },
       "height": {
-        "min": "40",
-        "max": "90"
+        "min": 40,
+        "max": 90
       },
       "info": "Muito conhecida pelo uso de suas flores para decoração. Meia sombra é o ideal para que as flores surjam mais rápido. O lírio da paz faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
       "image": "https://i.ibb.co/nP7q38k/KSP2418.jpg"
@@ -116,18 +116,18 @@
     {
       "name": "Citronela",
       "cientific_name": "Cymbopogon winterianus",
-      "water": "1",
+      "water": 1,
       "lighting": {
-        "min": "6",
-        "max": "16"
+        "min": 6,
+        "max": 16
       },
       "height": {
-        "min": "30",
-        "max": "200"
+        "min": 30,
+        "max": 200
       },
       "temperature": {
-        "min": "28",
-        "max": "35"
+        "min": 28,
+        "max": 35
       },
       "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, tanto a planta em si, que uma vez inserida em um ambiente exala um odor que repele insetos, quando em repelentes, shampoos e outros produtos derivados. ",
       "image": "https://i.ibb.co/0mM7cdZ/118161-tall-banana-plant-in-white-vase-thresholdtm-a39e68b58377405a22c0effcc65a0381.png"
@@ -136,17 +136,17 @@
       "name": "Café-de-salão",
       "cientific_name": "Aglaonema",
       "temperature": {
-        "min": "35",
-        "max": "75"
+        "min": 25,
+        "max": 35
       },
-      "water": "2",
+      "water": 2,
       "lighting": {
-        "min": "1",
-        "max": "3"
+        "min": 1,
+        "max": 3
       },
       "height": {
-        "min": "100",
-        "max": "350"
+        "min": 40,
+        "max": 75
       },
       "info": "É uma representante incrível dos climas tropicais, precisa de pouca coisa para se desenvolver bem. Um ambiente com luz indireta é ideal, além de regas cerca de duas vezes por semana.",
       "image": "https://i.ibb.co/rwYSyx1/Silver-King-w-Wood-Vase-Silk-Plant-S7-F6617-6617-LG.jpg"
