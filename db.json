@@ -95,23 +95,23 @@
       "image": "https://i.ibb.co/P91Dn2g/peromia-melancia.jpg"
     },
     {
-      "name": "Babosa Aloe vera",
-      "cientific_name": "Aloe vera",
+      "name": "Lírio-da-paz",
+      "cientific_name": "Spathiphyllum wallisii",
       "water": 8,
       "lighting": {
         "min": 8,
         "max": 16
       },
       "temperature": {
-        "min": 10,
-        "max": 35
+        "min": 18,
+        "max": 30
       },
       "height": {
-        "min": "30",
-        "max": "150"
+        "min": "40",
+        "max": "90"
       },
-      "info": "Amplamente empregada como hidratante capilar/facial natural. Estudos apontam que a babosa também ajuda a tratar lesões e queimaduras superficiais",
-      "image": "https://cdn.pixabay.com/photo/2020/08/28/17/15/aloe-5525117_960_720.jpg"
+      "info": "Muito conhecida pelo uso de suas flores para decoração. Meia sombra é o ideal para que as flores surjam mais rápido. O lírio da paz faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
+      "image": "https://i.ibb.co/nP7q38k/KSP2418.jpg"
     },
     {
       "name": "Citronela",
@@ -130,26 +130,26 @@
         "max": "35"
       },
       "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, tanto a planta em si, que uma vez inserida em um ambiente exala um odor que repele insetos, quando em repelentes, shampoos e outros produtos derivados. ",
-      "image": "https://i.ibb.co/Ms1CmPX/lemon-grass-tree-in-garden.jpg"
+      "image": "https://i.ibb.co/0mM7cdZ/118161-tall-banana-plant-in-white-vase-thresholdtm-a39e68b58377405a22c0effcc65a0381.png"
     },
     {
-      "name": "Ora-pro-nóbis",
-      "cientific_name": "Pereskia aculeata",
+      "name": "Café-de-salão",
+      "cientific_name": "Aglaonema",
       "temperature": {
-        "min": "22",
-        "max": "35"
+        "min": "35",
+        "max": "75"
       },
-      "water": "3",
+      "water": "2",
       "lighting": {
-        "min": "3",
-        "max": "6"
+        "min": "1",
+        "max": "3"
       },
       "height": {
         "min": "100",
         "max": "350"
       },
-      "info": "Auxilia na limpeza do organismo, serve como anti-inflamatório natural, tem poder cicatrizante",
-      "image": "https://i.ibb.co/PTKmNNw/ora-pro-nobis-removebg-preview.png"
+      "info": "É uma representante incrível dos climas tropicais, precisa de pouca coisa para se desenvolver bem. Um ambiente com luz indireta é ideal, além de regas cerca de duas vezes por semana.",
+      "image": "https://i.ibb.co/rwYSyx1/Silver-King-w-Wood-Vase-Silk-Plant-S7-F6617-6617-LG.jpg"
     }
   ],
   "userPlants": []
