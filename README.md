@@ -1,5 +1,5 @@
 <h1 align="center">
-  Help my plants - API
+  <img alt="Help My Plants" src="https://i.ibb.co/cYGQVXr/logopadrao-3-1.png" width="100px" />
 </h1>
 
 <p align = "center">
@@ -233,10 +233,11 @@ GET /userPlants - Recebe a lista de todas as plantas vinculadas ao usuário, 660
 POST /userPlants/?userId  -  Permite ao usuário adicionar plantas em seu perfil.
 
 
-`POST /userPlants/?userId  -  FORMATO DA REQUISIÇÃO `
+`POST /userPlants  -  FORMATO DA REQUISIÇÃO `
 ```json
 [
   {
+    "userID": 6,
     "name": "Samambaia",
     "cientific_name": "Phlebodium decumanum",
     "water": 1,
@@ -261,7 +262,7 @@ POST /userPlants/?userId  -  Permite ao usuário adicionar plantas em seu perfil
 
 Caso dê tudo certo, a resposta será assim:
 
-`PPOST /userPlants/?userId  -  FORMATO DA RESPOSTA - STATUS 200`
+`PPOST /userPlants  -  FORMATO DA RESPOSTA - STATUS 201`
 ```json
 [
   {
