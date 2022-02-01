@@ -154,6 +154,27 @@
   ],
   "userPlants": [
     {
+      "userId": 4,
+      "name": "Citronela",
+      "cientific_name": "Cymbopogon winterianus",
+      "water": 1,
+      "lighting": {
+        "min": 6,
+        "max": 16
+      },
+      "height": {
+        "min": 30,
+        "max": 200
+      },
+      "temperature": {
+        "min": 28,
+        "max": 35
+      },
+      "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, tanto a planta em si, que uma vez inserida em um ambiente exala um odor que repele insetos, quando em repelentes, shampoos e outros produtos derivados. ",
+      "image": "https://i.ibb.co/0mM7cdZ/118161-tall-banana-plant-in-white-vase-thresholdtm-a39e68b58377405a22c0effcc65a0381.png",
+      "id": 1
+    },
+    {
       "name": "Samambaia",
       "cientific_name": "Phlebodium decumanum",
       "water": 1,
@@ -198,9 +219,9 @@
       "image": "https://i.ibb.co/tDP0D5S/watermelon-peperomia-amazon.jpg",
       "surname": "Samambaia",
       "last_watering": "2022-02-01",
-      "details": "Planta ganha no natal do ano passado",
+      "details": "planta ganha no natal do ano passado",
       "userId": 4,
-      "reminder": "Lembrar de podar",
+      "reminder": "lembrar de podar",
       "id": 3
     },
     {
@@ -222,8 +243,8 @@
       "info": "Muito conhecida pelo uso de suas flores para decoração. Meia sombra é o ideal para que as flores surjam mais rápido. O lírio da paz faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
       "image": "https://i.ibb.co/nP7q38k/KSP2418.jpg",
       "surname": "Samambaia",
-      "last_watering": "2022-02-04",
-      "details": "Planta ganha no bingo",
+      "last_watering": "2022-02-01",
+      "details": "planta ganha no bingo",
       "userId": 4,
       "reminder": "Não deixar muito tempo no sol",
       "id": 4
