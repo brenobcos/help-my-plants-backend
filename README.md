@@ -261,6 +261,7 @@ GET /userPlants - Recebe a lista de todas as plantas vinculadas ao usuário, 660
 <h2 align ='center'> Vinculando plantas ao usuário </h2>
 <br/>
 POST /userPlants/?userId  -  Permite ao usuário adicionar plantas em seu perfil.
+Além do token de autorização e dos dados do produto, é necessário informar a id do usuário (userId) .
 
 `POST /userPlants - FORMATO DA REQUISIÇÃO `
 
