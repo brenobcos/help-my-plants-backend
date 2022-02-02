@@ -361,12 +361,13 @@
       "image": "https://t3.ftcdn.net/jpg/02/29/10/64/240_F_229106498_XPa1gmYPpznFYy2utBu9V0LVONPE0gyO.jpg"
     }
   ],
+
   "userPlants": [
     {
       "userId": 4,
       "name": "Citronela",
       "cientific_name": "Cymbopogon winterianus",
-      "water": 4,
+      "water": 1,
       "lighting": {
         "min": 6,
         "max": 16
