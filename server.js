@@ -11,7 +11,7 @@ app.db = router.db;
 const rules = auth.rewriter({
   users: 600,
   plants: 440,
-  userPlants: 660,
+  userPlants: 600,
 });
 
 app.use(cors());
