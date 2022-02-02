@@ -116,18 +116,18 @@
     {
       "name": "Citronela",
       "cientific_name": "Cymbopogon winterianus",
-      "water": "1",
+      "water": 1,
       "lighting": {
-        "min": "6",
-        "max": "16"
+        "min": 6,
+        "max": 16
       },
       "height": {
-        "min": "30",
-        "max": "200"
+        "min": 30,
+        "max": 200
       },
       "temperature": {
-        "min": "28",
-        "max": "35"
+        "min": 28,
+        "max": 35
       },
       "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, tanto a planta em si, que uma vez inserida em um ambiente exala um odor que repele insetos, quando em repelentes, shampoos e outros produtos derivados. ",
       "image": "https://ibb.co/56jRPs7"
