@@ -9,9 +9,9 @@ Este é o backend da aplicação Help my plants. O objetivo dessa aplicação é
 
 ## **Endpoints**
 
-A API tem um total de 7 endpoints, sendo em volta principalmente do usuário - podendo cadastrar seu perfil, acessar a database das plantas, adicionar as plantas em seu perfil, atualizar as informações das plantas já registradas em seu perfil e deletar as plantas que estão em seu perfil. 
+A API tem um total de 8 endpoints, sendo em volta principalmente do usuário - podendo cadastrar seu perfil, acessar a database das plantas, adicionar as plantas em seu perfil, atualizar as informações das plantas já registradas em seu perfil e deletar as plantas que estão em seu perfil.
 <br/>
-                    
+
 O url base da API é https:/help-my-plants-backend.herokuapp.com/
 
 ---
@@ -24,30 +24,30 @@ O url base da API é https:/help-my-plants-backend.herokuapp.com/
 POST /users : Cadastrar usuários, 600
 
 1. O campo - "email" e "password" são obrigatórios.
-   
 2. O campo "password" necessita de no mínimo 6 caracteres.
 
 3. Os campos - "name", "interest" são opcionais.
 
-
 4. O campo "interest" deve receber o interesse do usuário, devendo ser escrito dessa forma:
-   1. "Hobby"                           
+   1. "Hobby"
    2. "Estudante"
    3. "Profissional"
 
-`POST /users  -  FORMATO DA REQUISIÇÃO `
+`POST /users - FORMATO DA REQUISIÇÃO `
+
 ```json
-    {
-      "email": "emaildousuario@email.com",
-      "password": "123456",
-      "name": "João Silva",
-      "interest": "Hobby"
-    }
+{
+  "email": "emaildousuario@email.com",
+  "password": "123456",
+  "name": "João Silva",
+  "interest": "Hobby"
+}
 ```
 
 Caso dê tudo certo, a resposta será assim:
 
-`POST /users  -  FORMATO DA RESPOSTA - STATUS 201 `
+`POST /users - FORMATO DA RESPOSTA - STATUS 201 `
+
 ```json
 {
   "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJl1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsZG91c3VhcmlvQGVtY",
@@ -77,17 +77,19 @@ POST /login - Login do usuário, 600
 
 1 - Para executar o login é necessário do email e senha.
 
-`POST /login  -  FORMATO DA REQUISIÇÃO `
+`POST /login - FORMATO DA REQUISIÇÃO `
+
 ```json
-    {
-      "email": "emaildousuario@email.com",
-      "password": "123456"
-    }
+{
+  "email": "emaildousuario@email.com",
+  "password": "123456"
+}
 ```
 
 Caso dê tudo certo, a resposta será assim:
 
-`POST /login  -  FORMATO DA RESPOSTA - STATUS 200`
+`POST /login - FORMATO DA RESPOSTA - STATUS 200`
+
 ```json
 {
   "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJl1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVtYWlsZG91c3VhcmlvQGVtY",
@@ -99,6 +101,7 @@ Caso dê tudo certo, a resposta será assim:
   }
 }
 ```
+
 Caso dê errado e o usuário não for cadastrado apresentará:
 
 `STATUS 400`
@@ -106,6 +109,7 @@ Caso dê errado e o usuário não for cadastrado apresentará:
 ```
 "Cannot find user"
 ```
+
 Caso a senha estiver incorreta
 
 `STATUS 400`
@@ -115,9 +119,10 @@ Caso a senha estiver incorreta
 ```
 
 ---
+
 <br/>
 
-## Rotas que necessitam de autorização 🔐 
+## Rotas que necessitam de autorização 🔐
 
 Rotas que necessitam de autorização deve ser informado no cabeçalho da requisição o campo "Authorization", dessa forma:
 
@@ -125,12 +130,38 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 
 Após o usuário estar logado, ele deve conseguir ter acesso ao database das plantas cadastradas.
 
+<h2 align ='center'> Atualizar dados do usuário </h2>
+<br/>
+
+PATCH /login/:user_id - Atualizar dados do usuário, 600
+
+`PATCH /login/:user_id - FORMATO DA RESPOSTA - STATUS 200`
+
+```json
+{
+  "name": "zezinho",
+  "interest": "Profissional",
+  "email": "email@email.com"
+}
+```
+
+Caso passe um id diferente do usuário logado:
+
+`STATUS 400`
+
+```
+"Private resource access: entity must have a reference to the owner id"
+```
+
+<br/>
+
 <h2 align ='center'> Listando plantas </h2>
 <br/>
 
 GET /plants - Database das plantas cadastradas, 600
 
-`GET /plants  -  FORMATO DA RESPOSTA - STATUS 200  `
+`GET /plants - FORMATO DA RESPOSTA - STATUS 200 `
+
 ```json
 [
   {
@@ -172,7 +203,6 @@ GET /plants - Database das plantas cadastradas, 600
     "image": "https://ibb.co/xSYMzw6"
   }
 ]
-
 ```
 
 ---
@@ -181,7 +211,8 @@ GET /plants - Database das plantas cadastradas, 600
 <br/>
 GET /userPlants - Recebe a lista de todas as plantas vinculadas ao usuário, 660
 
-`GET /userPlants  -  FORMATO DA RESPOSTA - STATUS 200  `
+`GET /userPlants - FORMATO DA RESPOSTA - STATUS 200 `
+
 ```json
 [
   {
@@ -223,7 +254,6 @@ GET /userPlants - Recebe a lista de todas as plantas vinculadas ao usuário, 660
     "image": "https://ibb.co/xSYMzw6"
   }
 ]
-
 ```
 
 ---
@@ -232,62 +262,61 @@ GET /userPlants - Recebe a lista de todas as plantas vinculadas ao usuário, 660
 <br/>
 POST /userPlants/?userId  -  Permite ao usuário adicionar plantas em seu perfil.
 
+`POST /userPlants - FORMATO DA REQUISIÇÃO `
 
-`POST /userPlants  -  FORMATO DA REQUISIÇÃO `
 ```json
 [
   {
-    "userID": 6,
+    "userId": 6,
     "name": "Samambaia",
     "cientific_name": "Phlebodium decumanum",
     "water": 1,
     "lighting": {
-        "min": 1,
-        "max": 2
+      "min": 1,
+      "max": 2
     },
     "temperature": {
-        "min": 15,
-        "max": 30
+      "min": 15,
+      "max": 30
     },
     "height": {
-        "min": 80,
-        "max": 120
+      "min": 80,
+      "max": 120
     },
     "info": "Formam moitas volumosas por isso são ideais para colocar em vasos suspensos ou no alto de uma parede, para criar um jardim vertical. A samambaia se adapta perfeitamente a ambientes com o tipo de iluminação meia-sombra e não deve pegar muito vento.",
-    "image": "https://ibb.co/1JJXwsg",
+    "image": "https://ibb.co/1JJXwsg"
   }
 ]
-
 ```
 
 Caso dê tudo certo, a resposta será assim:
 
-`PPOST /userPlants  -  FORMATO DA RESPOSTA - STATUS 201`
+`POST /userPlants - FORMATO DA RESPOSTA - STATUS 201`
+
 ```json
 [
   {
-    "userID": 6,
+    "userId": 6,
     "name": "Samambaia",
     "cientific_name": "Phlebodium decumanum",
     "water": 1,
     "lighting": {
-        "min": 1,
-        "max": 2
+      "min": 1,
+      "max": 2
     },
     "temperature": {
-        "min": 15,
-        "max": 30
+      "min": 15,
+      "max": 30
     },
     "height": {
-        "min": 80,
-        "max": 120
+      "min": 80,
+      "max": 120
     },
     "info": "Formam moitas volumosas por isso são ideais para colocar em vasos suspensos ou no alto de uma parede, para criar um jardim vertical. A samambaia se adapta perfeitamente a ambientes com o tipo de iluminação meia-sombra e não deve pegar muito vento.",
     "image": "https://ibb.co/1JJXwsg",
     "id": 1
   }
 ]
-
 ```
 
 ---
@@ -296,7 +325,8 @@ Caso dê tudo certo, a resposta será assim:
 <br/>
 PATCH /userPlants/:plants_id -  Permite ao usuário atualizar as informações de plantas já registradas em seu perfil.
 
-`PATCH /userPlants/:plants_id  -  FORMATO DA RESPOSTA - STATUS 200  `
+`PATCH /userPlants/:plants_id - FORMATO DA RESPOSTA - STATUS 200 `
+
 ```json
 {
   "name": "Samambaia Americana",
@@ -318,7 +348,6 @@ PATCH /userPlants/:plants_id -  Permite ao usuário atualizar as informações d
   "image": "https://ibb.co/1JJXwsg",
   "id": 1
 }
-
 ```
 
 Caso passe o ID errado ou inválido apresentará:
@@ -331,8 +360,10 @@ Caso passe o ID errado ou inválido apresentará:
 <br/>
 DELETE /userPlants/:plants_id -  Permite ao usuário atualizar as informações de plantas já registradas em seu perfil.
 
-`DELETE /userPlants/:plants_id  -  FORMATO DA RESPOSTA - STATUS 200  `
+`DELETE /userPlants/:plants_id - FORMATO DA RESPOSTA - STATUS 200 `
+
 ```
 Não é necessário um corpo da requisição.
 ```
---------------------------------------------------
+
+---
