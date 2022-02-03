@@ -485,6 +485,31 @@
       "userId": 4,
       "reminder": "lembrete",
       "id": 5
+    },
+    {
+      "name": "Espinheira santa",
+      "cientific_name": "Maytenus ilicifolia",
+      "water": 2,
+      "lighting": {
+        "min": 4,
+        "max": 14
+      },
+      "temperature": {
+        "min": 10,
+        "max": 35
+      },
+      "height": {
+        "min": 100,
+        "max": 400
+      },
+      "info": "Auxilia no tratamento de gripes e resfriados e melhora a digestão.",
+      "image": "https://t3.ftcdn.net/jpg/01/08/55/48/240_F_108554884_a3XOWZtRdAsIRlF2tgf1rkiSxErl0AYR.jpg",
+      "surname": "Espinheira santa",
+      "last_watering": "2022-02-04",
+      "details": "Mais informações que você achar relevante aqui:)",
+      "userId": 4,
+      "reminder": "lembrete",
+      "id": 6
     }
   ]
 }
