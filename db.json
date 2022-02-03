@@ -47,13 +47,13 @@
       },
       "temperature": {
         "min": 15,
-        "max": 30
+        "max": 26
       },
       "height": {
         "min": 80,
         "max": 120
       },
-      "info": "Formam moitas volumosas por isso são ideais para colocar em vasos suspensos ou no alto de uma parede, para criar um jardim vertical. A samambaia se adapta perfeitamente a ambientes com o tipo de iluminação meia-sombra e não deve pegar muito vento.",
+      "info": "Formam moitas volumosas por isso são ideais para colocar em vasos suspensos ou no alto de uma parede, para criar um jardim vertical.",
       "image": "https://i.ibb.co/zHH208M/samambaia-americana-8677-1-20190521161357.jpg"
     },
     {
@@ -72,7 +72,7 @@
         "min": 60,
         "max": 100
       },
-      "info": "Com folhas longas e achatadas, a Espada de São Jorge é uma ótima escolha para quem não tem muito tempo para dedicar às plantas, pois ela não exige muitos cuidados. Além disso, se adapta bem a ambientes com ar-condicionado.",
+      "info": "É uma ótima escolha para quem não tem muito tempo para dedicar às plantas, pois ela não exige muitos cuidados. Além disso, se adapta bem a ambientes com ar-condicionado.",
       "image": "https://i.ibb.co/kgJhqzX/a-potted-plant-on-a-white-background.jpg"
     },
     {
@@ -91,7 +91,7 @@
         "min": 40,
         "max": 60
       },
-      "info": "Suas folhas lembram a casca da melancia, a sua aparência que deu origem ao seu nome. Cresce rápido e é uma planta de fácil cultivo. Seu ambiente ideal é um ambiente claro, mas sem luz do sol direta.",
+      "info": "Suas folhas lembram a casca da melancia, a sua aparência que deu origem ao seu nome. Cresce rápido e é uma planta de fácil cultivo.",
       "image": "https://i.ibb.co/tDP0D5S/watermelon-peperomia-amazon.jpg"
     },
     {
@@ -104,13 +104,13 @@
       },
       "temperature": {
         "min": 18,
-        "max": 30
+        "max": 27
       },
       "height": {
         "min": 40,
         "max": 90
       },
-      "info": "Muito conhecida pelo uso de suas flores para decoração. Meia sombra é o ideal para que as flores surjam mais rápido. O lírio da paz faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
+      "info": "Muito conhecida pelo uso de suas flores para decoração. Faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
       "image": "https://i.ibb.co/nP7q38k/KSP2418.jpg"
     },
     {
@@ -127,10 +127,10 @@
       },
       "temperature": {
         "min": 28,
-        "max": 35
+        "max": 40
       },
-      "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, tanto a planta em si, que uma vez inserida em um ambiente exala um odor que repele insetos, quando em repelentes, shampoos e outros produtos derivados. ",
-      "image": "https://i.ibb.co/0mM7cdZ/118161-tall-banana-plant-in-white-vase-thresholdtm-a39e68b58377405a22c0effcc65a0381.png"
+      "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, shampoos e outros produtos derivados. ",
+      "image": "https://i.ibb.co/bFnf2sk/citrogod.webp"
     },
     {
       "name": "Café-de-salão",
@@ -148,10 +148,220 @@
         "min": 40,
         "max": 75
       },
-      "info": "É uma representante incrível dos climas tropicais, precisa de pouca coisa para se desenvolver bem. Um ambiente com luz indireta é ideal, além de regas cerca de duas vezes por semana.",
+      "info": "Precisa de pouca coisa para se desenvolver bem. Um ambiente com luz indireta é ideal, além de regas cerca de duas vezes por semana.",
       "image": "https://i.ibb.co/rwYSyx1/Silver-King-w-Wood-Vase-Silk-Plant-S7-F6617-6617-LG.jpg"
+    },
+    {
+      "name": "Boldo",
+      "cientific_name": "Peumus boldus Molina",
+      "water": 2,
+      "lighting": {
+        "min": 3,
+        "max": 6
+      },
+      "temperature": {
+        "min": 18,
+        "max": 30
+      },
+      "height": {
+        "min": 30,
+        "max": 100
+      },
+      "info": "Usado em chás devido as suas propriedades diuréticas e benefícios ao processo digestivo",
+      "image": "https://t4.ftcdn.net/jpg/01/70/65/65/240_F_170656500_TMC5cc1ygG5xFu8ZADXXw40Nwg5wgQJz.jpg"
+    },
+    {
+      "name": "Erva Cedreira",
+      "cientific_name": "Melissa officinalis",
+      "water": 2,
+      "lighting": {
+        "min": 6,
+        "max": 16
+      },
+      "temperature": {
+        "min": 23,
+        "max": 35
+      },
+      "height": {
+        "min": 50,
+        "max": 150
+      },
+      "info": "Tem propriedades calmantes, sedativas, relaxantes, analgésicas, anti-inflamatórias e antioxidantes, além aliviar a  ansiedade e o estresse.",
+      "image": "https://i.ibb.co/4JJGkQK/cedreira.png"
+    },
+    {
+      "name": "Hortela",
+      "cientific_name": "Mentha spicata",
+      "water": 2,
+      "lighting": {
+        "min": 6,
+        "max": 10
+      },
+      "temperature": {
+        "min": 16,
+        "max": 32
+      },
+      "height": {
+        "min": 25,
+        "max": 50
+      },
+      "info": "Ajuda no processo de digestão, também é usado em vários medicamentos para evitar dores de cabeça.",
+      "image": "https://t4.ftcdn.net/jpg/02/25/37/91/240_F_225379119_z7VHZL4cis3dcewueoAXJTkC4QLVKXZ9.jpg"
+    },
+    {
+      "name": "Erva doce",
+      "cientific_name": "Pimpinella anisum",
+      "water": 3,
+      "lighting": {
+        "min": 3,
+        "max": 10
+      },
+      "temperature": {
+        "min": 19,
+        "max": 30
+      },
+      "height": {
+        "min": 30,
+        "max": 120
+      },
+      "info": "Auxilia no alivio dos sintomas de resfriado, dor de cabeça e desconfortos abdominais.",
+      "image": "https://t4.ftcdn.net/jpg/00/42/23/55/240_F_42235563_sXtqGGJDXdCNN1FNdJyoMiMoSBgqjzqR.jpg"
+    },
+    {
+      "name": "Camomila",
+      "cientific_name": "Matricaria chamomilla",
+      "water": 2,
+      "lighting": {
+        "min": 5,
+        "max": 12
+      },
+      "temperature": {
+        "min": 20,
+        "max": 26
+      },
+      "height": {
+        "min": 20,
+        "max": 90
+      },
+      "info": "Erva consumida desde a antiguidade devido suas funções calmantes, indutoras do sono, anti-inflamatórias e antioxidantes.",
+      "image": "https://i.ibb.co/bbvrFxs/camomila-removebg-preview.png"
+    },
+    {
+      "name": "Absinto",
+      "cientific_name": "Artemisia absinthium",
+      "water": 2,
+      "lighting": {
+        "min": 5,
+        "max": 12
+      },
+      "temperature": {
+        "min": 22,
+        "max": 35
+      },
+      "height": {
+        "min": 30,
+        "max": 90
+      },
+      "info": "Muito utilizada para ajudar a baixar a febre ou para complementar o tratamento contra vermes.",
+      "image": "https://t3.ftcdn.net/jpg/01/02/50/74/240_F_102507488_QUtWfUczwuP2cxAfQldty6BCX6BpZC7p.jpg"
+    },
+    {
+      "name": "Poejo",
+      "cientific_name": "Mentha pulegium",
+      "water": 2,
+      "lighting": {
+        "min": 4,
+        "max": 10
+      },
+      "temperature": {
+        "min": 22,
+        "max": 35
+      },
+      "height": {
+        "min": 30,
+        "max": 45
+      },
+      "info": "Têm propriedades antioxidantes, auxilia no tratamento de problemas estomacais e da acne.",
+      "image": "https://i.ibb.co/1rfZVV5/espinheira-removebg-preview.png"
+    },
+    {
+      "name": "Arruda",
+      "cientific_name": "Ruta graveolens",
+      "water": 3,
+      "lighting": {
+        "min": 4,
+        "max": 15
+      },
+      "temperature": {
+        "min": 22,
+        "max": 35
+      },
+      "height": {
+        "min": 20,
+        "max": 50
+      },
+      "info": "Auxilia no tratamento de varizes, infestações de piolhos e pulgas, além de ter propriedades cicatrizantes, vermífuga e analgésica.",
+      "image": "https://t3.ftcdn.net/jpg/01/32/76/22/240_F_132762224_9aC74M26qrwzlpq5PbboeEEcuLH9oiko.jpg"
+    },
+    {
+      "name": "Espinheira santa",
+      "cientific_name": "Maytenus ilicifolia",
+      "water": 2,
+      "lighting": {
+        "min": 4,
+        "max": 14
+      },
+      "temperature": {
+        "min": 10,
+        "max": 35
+      },
+      "height": {
+        "min": 100,
+        "max": 400
+      },
+      "info": "Auxilia no tratamento de gripes e resfriados e melhora a digestão.",
+      "image": "https://t3.ftcdn.net/jpg/01/08/55/48/240_F_108554884_a3XOWZtRdAsIRlF2tgf1rkiSxErl0AYR.jpg"
+    },
+    {
+      "name": "Manjericão",
+      "cientific_name": "Ocimum basilicum",
+      "water": 3,
+      "lighting": {
+        "min": 4,
+        "max": 16
+      },
+      "temperature": {
+        "min": 20,
+        "max": 38
+      },
+      "height": {
+        "min": 30,
+        "max": 60
+      },
+      "info": "Protege o corpo contra ataques bacterianos, estimula a memória, melhora a pele e a visão além de aliviar o estresse.",
+      "image": "https://t4.ftcdn.net/jpg/00/02/35/37/240_F_2353758_P5oY4RxyrVbzrWtmeW3vnf3QRSyrNN.jpg"
+    },
+    {
+      "name": "Quebra pedra",
+      "cientific_name": "hyllanthus niruri",
+      "water": 3,
+      "lighting": {
+        "min": 4,
+        "max": 16
+      },
+      "temperature": {
+        "min": 23,
+        "max": 35
+      },
+      "height": {
+        "min": 20,
+        "max": 70
+      },
+      "info": "Previne problemas no figado e rins, já que possui propriedades diuréticas, além de também ser antioxidante, antiviral e antibacteriana.",
+      "image": "https://t3.ftcdn.net/jpg/02/29/10/64/240_F_229106498_XPa1gmYPpznFYy2utBu9V0LVONPE0gyO.jpg"
     }
   ],
+
   "userPlants": [
     {
       "userId": 4,
@@ -170,8 +380,8 @@
         "min": 28,
         "max": 35
       },
-      "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, tanto a planta em si, que uma vez inserida em um ambiente exala um odor que repele insetos, quando em repelentes, shampoos e outros produtos derivados. ",
-      "image": "https://i.ibb.co/0mM7cdZ/118161-tall-banana-plant-in-white-vase-thresholdtm-a39e68b58377405a22c0effcc65a0381.png",
+      "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, shampoos e outros produtos derivados. ",
+      "image": "https://i.ibb.co/bFnf2sk/citrogod.webp",
       "id": 1
     },
     {
@@ -240,7 +450,7 @@
         "min": 40,
         "max": 90
       },
-      "info": "Muito conhecida pelo uso de suas flores para decoração. Meia sombra é o ideal para que as flores surjam mais rápido. O lírio da paz faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
+      "info": "Muito conhecida pelo uso de suas flores para decoração. Faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
       "image": "https://i.ibb.co/nP7q38k/KSP2418.jpg",
       "surname": "Samambaia",
       "last_watering": "2022-02-01",
