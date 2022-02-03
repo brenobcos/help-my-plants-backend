@@ -361,7 +361,6 @@
       "image": "https://t3.ftcdn.net/jpg/02/29/10/64/240_F_229106498_XPa1gmYPpznFYy2utBu9V0LVONPE0gyO.jpg"
     }
   ],
-
   "userPlants": [
     {
       "userId": 4,
@@ -380,6 +379,9 @@
         "min": 28,
         "max": 35
       },
+      "surname": "Citronela da varanda",
+      "reminder": "Está com pragas, precisa de veneno",
+      "details": "",
       "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, shampoos e outros produtos derivados. ",
       "image": "https://i.ibb.co/bFnf2sk/citrogod.webp",
       "id": 1
@@ -402,7 +404,7 @@
       },
       "info": "Formam moitas volumosas por isso são ideais para colocar em vasos suspensos ou no alto de uma parede, para criar um jardim vertical. A samambaia se adapta perfeitamente a ambientes com o tipo de iluminação meia-sombra e não deve pegar muito vento.",
       "image": "https://i.ibb.co/zHH208M/samambaia-americana-8677-1-20190521161357.jpg",
-      "surname": "Samambaia",
+      "surname": "Samambaia do jardim",
       "last_watering": "2022-02-01",
       "details": "Mais informaçõyuk687utkoisrki65i6",
       "userId": 4,
@@ -427,7 +429,7 @@
       },
       "info": "Suas folhas lembram a casca da melancia, a sua aparência que deu origem ao seu nome. Cresce rápido e é uma planta de fácil cultivo. Seu ambiente ideal é um ambiente claro, mas sem luz do sol direta.",
       "image": "https://i.ibb.co/tDP0D5S/watermelon-peperomia-amazon.jpg",
-      "surname": "Samambaia",
+      "surname": "Peperômonia da varanda",
       "last_watering": "2022-02-01",
       "details": "planta ganha no natal do ano passado",
       "userId": 4,
@@ -452,12 +454,37 @@
       },
       "info": "Muito conhecida pelo uso de suas flores para decoração. Faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
       "image": "https://i.ibb.co/nP7q38k/KSP2418.jpg",
-      "surname": "Samambaia",
+      "surname": "Lírio do rio",
       "last_watering": "2022-02-01",
       "details": "planta ganha no bingo",
       "userId": 4,
       "reminder": "Não deixar muito tempo no sol",
       "id": 4
+    },
+    {
+      "name": "Samambaia",
+      "cientific_name": "Phlebodium decumanum",
+      "water": 1,
+      "lighting": {
+        "min": 1,
+        "max": 2
+      },
+      "temperature": {
+        "min": 15,
+        "max": 26
+      },
+      "height": {
+        "min": 80,
+        "max": 120
+      },
+      "info": "Formam moitas volumosas por isso são ideais para colocar em vasos suspensos ou no alto de uma parede, para criar um jardim vertical.",
+      "image": "https://i.ibb.co/zHH208M/samambaia-americana-8677-1-20190521161357.jpg",
+      "surname": "Samambaia",
+      "last_watering": "2022-02-03",
+      "details": "Mais informações que você achar relevante aqui:)",
+      "userId": 4,
+      "reminder": "lembrete",
+      "id": 5
     }
   ]
 }
