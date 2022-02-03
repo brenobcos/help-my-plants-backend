@@ -110,7 +110,7 @@
         "min": 40,
         "max": 90
       },
-      "info": "Muito conhecida pelo uso de suas flores para decoração.Faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
+      "info": "Muito conhecida pelo uso de suas flores para decoração. Faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
       "image": "https://i.ibb.co/nP7q38k/KSP2418.jpg"
     },
     {
@@ -129,7 +129,7 @@
         "min": 28,
         "max": 40
       },
-      "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, tanto  shampoos e outros produtos derivados. ",
+      "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, shampoos e outros produtos derivados. ",
       "image": "https://i.ibb.co/bFnf2sk/citrogod.webp"
     },
     {
@@ -186,7 +186,7 @@
         "min": 50,
         "max": 150
       },
-      "info": "Tem propriedades calmantes, sedativas, relaxantes, analgésicas, anti-inflamatórias e antioxidantes, além de  ansiedade e estresse.",
+      "info": "Tem propriedades calmantes, sedativas, relaxantes, analgésicas, anti-inflamatórias e antioxidantes, além aliviar a  ansiedade e o estresse.",
       "image": "https://i.ibb.co/4JJGkQK/cedreira.png"
     },
     {
@@ -205,7 +205,7 @@
         "min": 25,
         "max": 50
       },
-      "info": "Ajuda no processo de digestão, também é usado em vários medicamentos para evitar dores de cabeça",
+      "info": "Ajuda no processo de digestão, também é usado em vários medicamentos para evitar dores de cabeça.",
       "image": "https://t4.ftcdn.net/jpg/02/25/37/91/240_F_225379119_z7VHZL4cis3dcewueoAXJTkC4QLVKXZ9.jpg"
     },
     {
@@ -224,7 +224,7 @@
         "min": 30,
         "max": 120
       },
-      "info": "Auxilia no alivio dos sintomas de resfriado, dor de cabeça e desconfortos abdominais",
+      "info": "Auxilia no alivio dos sintomas de resfriado, dor de cabeça e desconfortos abdominais.",
       "image": "https://t4.ftcdn.net/jpg/00/42/23/55/240_F_42235563_sXtqGGJDXdCNN1FNdJyoMiMoSBgqjzqR.jpg"
     },
     {
@@ -243,8 +243,8 @@
         "min": 20,
         "max": 90
       },
-      "info": "Erva consumida desde a antiguidade devido suas funções calmantes, indutoras do sono, anti-inflamatórias e antioxidantes",
-      "image": "https://o.remove.bg/downloads/2df6cfe7-395a-4bbb-b830-6aafb3eee73a/camomila-removebg-preview.png"
+      "info": "Erva consumida desde a antiguidade devido suas funções calmantes, indutoras do sono, anti-inflamatórias e antioxidantes.",
+      "image": "https://i.ibb.co/bbvrFxs/camomila-removebg-preview.png"
     },
     {
       "name": "Absinto",
@@ -262,11 +262,11 @@
         "min": 30,
         "max": 90
       },
-      "info": "Muito utilizada para ajudar a baixar a febre ou para complementar o tratamento contra vermes",
+      "info": "Muito utilizada para ajudar a baixar a febre ou para complementar o tratamento contra vermes.",
       "image": "https://t3.ftcdn.net/jpg/01/02/50/74/240_F_102507488_QUtWfUczwuP2cxAfQldty6BCX6BpZC7p.jpg"
     },
     {
-      "name": "Puejo",
+      "name": "Poejo",
       "cientific_name": "Mentha pulegium",
       "water": 2,
       "lighting": {
@@ -281,7 +281,7 @@
         "min": 30,
         "max": 45
       },
-      "info": "têm propriedades antioxidantes, auxilia no tratamento de problemas estomacais e da acne",
+      "info": "Têm propriedades antioxidantes, auxilia no tratamento de problemas estomacais e da acne.",
       "image": "https://i.ibb.co/1rfZVV5/espinheira-removebg-preview.png"
     },
     {
@@ -300,7 +300,7 @@
         "min": 20,
         "max": 50
       },
-      "info": "Auxilia no tratamento de varizes, em infestações de piolhos e pulgas, além de ter propriedades cicatrizantes, vermífuga e analgésica.",
+      "info": "Auxilia no tratamento de varizes, infestações de piolhos e pulgas, além de ter propriedades cicatrizantes, vermífuga e analgésica.",
       "image": "https://t3.ftcdn.net/jpg/01/32/76/22/240_F_132762224_9aC74M26qrwzlpq5PbboeEEcuLH9oiko.jpg"
     },
     {
@@ -319,7 +319,7 @@
         "min": 100,
         "max": 400
       },
-      "info": "Auxilia no tratamento de gripes e resfriados e melhorar a digestão.",
+      "info": "Auxilia no tratamento de gripes e resfriados e melhora a digestão.",
       "image": "https://t3.ftcdn.net/jpg/01/08/55/48/240_F_108554884_a3XOWZtRdAsIRlF2tgf1rkiSxErl0AYR.jpg"
     },
     {
@@ -338,7 +338,7 @@
         "min": 30,
         "max": 60
       },
-      "info": "Protege o corpo contra ataques bacterianos, estimula a memória, melhora a pele e a visão alé, de aliviar o estresse.",
+      "info": "Protege o corpo contra ataques bacterianos, estimula a memória, melhora a pele e a visão além de aliviar o estresse.",
       "image": "https://t4.ftcdn.net/jpg/00/02/35/37/240_F_2353758_P5oY4RxyrVbzrWtmeW3vnf3QRSyrNN.jpg"
     },
     {
@@ -357,7 +357,7 @@
         "min": 20,
         "max": 70
       },
-      "info": "Previne problemas no figado e rins, já que possui propriedades diuréticas, além de também ser antioxidante, antiviral e antibacteriana",
+      "info": "Previne problemas no figado e rins, já que possui propriedades diuréticas, além de também ser antioxidante, antiviral e antibacteriana.",
       "image": "https://t3.ftcdn.net/jpg/02/29/10/64/240_F_229106498_XPa1gmYPpznFYy2utBu9V0LVONPE0gyO.jpg"
     }
   ],
@@ -380,8 +380,8 @@
         "min": 28,
         "max": 35
       },
-      "info": "Tem propriedade aromáticas, sendo uma planta muito útil como repelente natural ",
-      "image": "https://i.ibb.co/0mM7cdZ/118161-tall-banana-plant-in-white-vase-thresholdtm-a39e68b58377405a22c0effcc65a0381.png",
+      "info": "Tem propriedade aromáticas, sendo uma planta muito útil como  repelente natural, shampoos e outros produtos derivados. ",
+      "image": "https://i.ibb.co/bFnf2sk/citrogod.webp",
       "id": 1
     },
     {
@@ -450,7 +450,7 @@
         "min": 40,
         "max": 90
       },
-      "info": "Muito conhecida pelo uso de suas flores para decoração. Meia sombra é o ideal para que as flores surjam mais rápido. O lírio da paz faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
+      "info": "Muito conhecida pelo uso de suas flores para decoração. Faz parte de um grupo de plantas reconhecidas pela NASA por suas propriedades purificadoras de ar.",
       "image": "https://i.ibb.co/nP7q38k/KSP2418.jpg",
       "surname": "Samambaia",
       "last_watering": "2022-02-01",
